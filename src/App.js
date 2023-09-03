@@ -17,7 +17,7 @@ function App() {
   }
   return (
     <div className="flex flex-col w-screen">
-      <div className="flex flex-row 2xl:pl-[7.43rem]">
+      <div className="flex flex-col lg:flex-row 2xl:pl-[7.43rem]">
         <div className="ml-8 lg:pl-[12.87rem] mt-2 lg:mt-10 ">
           <ul className="flex flex-row">
             <li className="mr-2 md:mr-10">Home</li>
@@ -293,7 +293,7 @@ function App() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row items-center justify-around lg:pb-[9.375 rem]">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-around lg:pb-[9.375 rem]">
         <div>
           <img src="img/Group 167.png" alt="vr" />
         </div>
